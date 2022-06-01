@@ -1,37 +1,140 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Just Haikyuu</title>
+        <link rel="icon" href="logo.ico" type="image/x-icon" >
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <link rel="stylesheet" href="stylesheet.css">
+        <style>
+        .button
+         {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        </style>
+          
+    </head>
 
-You can use the [editor on GitHub](https://github.com/AldnoahZero-00/AldnoahZero-00.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+<body BACKGROUND = 'background.jpg'>
+<center>
+<h1>Welcome to Haikyuu World</h1>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <img class="haikyuu" src="slideshow1.jpg" width="100%">
+    <img class="haikyuu" src="slideshow2.jpg" width="100%">
+    <img class="haikyuu" src="slideshow3.jpg" width="100%">
+    <img class="haikyuu" src="slideshow4.jpg" width="100%">
+    <img class="haikyuu" src="slideshow4.jpg" width="100%">
 
-### Markdown
+<script>
+w3.slideshow(".haikyuu", 1000);
+</script>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<br/>
+<h2>The Characters</h2>
 
-```markdown
-Syntax highlighted code block
+<p><button onclick="w3.addClass('.city','marked')" class="button">More Design</button></p>
 
-# Header 1
-## Header 2
-### Header 3
+<p>
+    <strong> Hinata Shoyo </strong><button onclick="w3.toggleShow('#hinata')" class="button" >Hide</button>
+</p>
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+<div id="hinata" class="city" class="img">
 
-**Bold** and _Italic_ and `Code` text
+    <img src="img_hinata.jpg" alt="hinata" style="width:200px; height:200px;">
+    <p>
+        The main protagonist. Hinata was a first-year student at Karasuno High and one of the volleyball team's middle blocker.
+    </p>
 
-[Link](url) and ![Image](src)
-```
+</div>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+<p>
+    <strong> Tobio Kageyama </strong><button onclick="w3.toggleShow('#kageyama')" class="button" >Hide</button>
+</p>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AldnoahZero-00/AldnoahZero-00.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+<div id="kageyama" class="city">
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    <img src="img_kageyama.jpg" alt="kageyama" style="width:200px; height:200px;">
+    <p>
+        The deuteragonist. Kageyama was a first-year student at Karasuno High and plays as the starting setter for the boys' volleyball club.
+    </p>
+
+</div>
+
+
+<p>
+    <strong> Kei Tsukishima </strong><button onclick="w3.toggleShow('#tsuki')" class="button" >Hide</button>
+</p>
+
+
+<div id="tsuki" class="city">
+
+    <img src="img_tsuki.jpg" alt="tsuki" style="width:200px; height:200px;">
+    <p>
+        A first year at Karasuno High. He plays as one of the starting middle blockers on the boys volleyball team.
+    </p>
+
+</div>
+
+
+<p>
+    <strong> Tadashi Yamaguchi </strong><button onclick="w3.toggleShow('#yamaguchi')" class="button" >Hide</button>
+</p>
+
+<div id="yamaguchi" class="city">
+
+    <img src="img_yamaguchi.jpg" alt="yamaguchi" style="width:200px; height:200px;">
+    <p>
+        A first year student at Karasuno High. He plays on the boys volleyball team as a middle blocker and pinch server.
+    </p>
+
+</div>
+
+
+<br><br><br><br><br>
+
+<h3>
+    <strong> Youtube Link </strong><button onclick="w3.toggleShow('#link')" class="button" > Hide</button>
+</h3>
+
+<div id="link" class="city">
+
+    <p>
+        <a href="https://www.youtube.com/watch?v=LL-XvudvRDA"> Haikyuu Above OST </a>
+    </p>
+
+</div>
+
+</center>
+
+<br><br><br><br><br>
+
+<p>
+    <button onclick="w3.toggleShow('#Pic')" style="float: left;" class="button" >Click Me</button>
+</p>
+
+<br><br>
+<div id="Pic" class="city" id="pic">     
+    <h4>Click The Pic</h4>
+
+    <a href="https://www.facebook.com/bellagarrote">
+        <img src="me.jpg" alt="me" style="width:350px;height:600px;">
+    </a>
+
+</div>
+
+<br><br><br><br><br>
+
+
+</body>
+</html>
